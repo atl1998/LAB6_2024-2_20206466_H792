@@ -10,7 +10,7 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import java.util.List;
 import java.util.Optional;
 @Controller
-@RequestMapping("/index")
+@RequestMapping("index")
 public class AdminController {
     @Autowired
     DirectorRepository directorRepository;
